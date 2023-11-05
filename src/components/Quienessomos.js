@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Box, Center, Image, Heading, Grid, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, Icon, Text } from '@chakra-ui/react';
-import { FaYoutube, FaInstagram, FaTiktok } from 'react-icons/fa';
+import { FaYoutube, FaInstagram} from 'react-icons/fa';
 import paisaje from './imagenes/paisaje.jpg';
 import ana from './imagenes/ana.jpg';
 import chiara from './imagenes/chiara.jpg';
@@ -34,7 +34,7 @@ function Quienessomos() {
     { imagen: ari, nombre: 'Ariana Zacarías', descripcion: 'Estudio Ing. Industrial y, como buena estudiante de mi carrera, me apasionan mil cosas: desde las STEM hasta las humanidades, amo comunicar y diseñar. Participé en olimpíadas, competencias y campamentos de ciencias que me cambiaron la vida. Hoy, trabajo día a día por hacer del mundo un lugar un poco más amigable e inclusivo, por eso soy voluntaria en diferentes fundaciones y proyectos que surgen.', socialLinks: [{ icon: FaInstagram, link: 'https://instagram.com/usuario1' }, { icon: FaYoutube, link: 'https://youtube.com/usuario1' }] },
     { imagen: zur, nombre: 'Joaco Zur', descripcion: 'Diferentes experiencias en mi vida me han revelado el extraordinario poder de pertenecer a una comunidad, de conectar con personas y de nutrir relaciones valiosas. Esto me impulsó a co-fundar Nación Ciencia junto a un inspirador grupo de personas, con el objetivo de maximizar el potencial de esta comunidad de jóvenes curiosos y compartirla con un público más amplio. Estudio Física en el Instituto Balseiro. Me apasionan las conversaciones y la conciencia. Amo el mate, la chocotorta, la música, las burbujas y amar.', socialLinks: [{ icon: FaInstagram, link: 'https://instagram.com/usuario1' }, { icon: FaYoutube, link: 'https://youtube.com/usuario1' }] },
     { imagen: chiara, nombre: 'Chiara Lombardo', descripcion: 'Nací en las tierras donde se dice "ia ta listo el poio?" Aunque soy experta en los guiones de Shrek, solo se iniciar sesión apretando el botón de olvidé contraseña. Me encantan los juegos de palabras y de mesa, me gusta jugar al Geogebra y nadar porque solo se que no se nada. Estudio la licenciatura en física y participar de olimpiadas de ciencias y campamentos científicos me tatuaron la visión de Nación Ciencia en mis principios.', socialLinks: [{ icon: FaInstagram, link: 'https://instagram.com/usuario1' }, { icon: FaYoutube, link: 'https://youtube.com/usuario1' }] },
-    // ... Agrega aquí el resto de los miembros
+    
   ]);
 
   const [selectedMember, setSelectedMember] = useState(null);
@@ -101,4 +101,4 @@ function Quienessomos() {
   );
 }
 
-export default Quienessomos;
+export default Quienessomos; 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Center, Image, Text } from '@chakra-ui/react';
+import { Box, Center, Text } from '@chakra-ui/react';
 import paisaje from './imagenes/paisaje.jpg'; 
 
 function Nexcognita() {

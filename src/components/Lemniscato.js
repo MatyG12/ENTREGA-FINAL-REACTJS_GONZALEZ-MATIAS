@@ -1,9 +1,9 @@
-import { Box, Circle, Flex, Heading, Text, VStack, HStack, Image, AspectRatio, Grid } from "@chakra-ui/react";
+import { Box, Circle, Flex, Heading, Text, VStack, Image, AspectRatio, Grid } from "@chakra-ui/react";
 
 import paisaje from './imagenes/uno.jpg';
 
 
-function Lemniscato() {
+function Lemniscato() { 
   return (
 
     <VStack spacing="0%" p="0%" align="center" w="100%">
